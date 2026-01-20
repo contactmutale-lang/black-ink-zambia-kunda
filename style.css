@@ -18,6 +18,12 @@ body {
     color: white;
     scroll-behavior: smooth;
 }
+body {
+    /* ../ goes out of the css folder, then /images enters the image folder */
+    background-image: url('../images/logo.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
 /* Hero Section */
 .hero {
